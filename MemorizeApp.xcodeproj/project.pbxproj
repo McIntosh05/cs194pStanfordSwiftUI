@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1A539092ABF7BE700A9D363 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A539092ABF7BE700A9D363 /* MemorizeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A5390C2ABF7BE700A9D363 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		E1A5390E2ABF7BE700A9D363 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		E1A539102ABF7BEA00A9D363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		E1A539002ABF7BE700A9D363 = {
 			isa = PBXGroup;
 			children = (
-				E1A5390B2ABF7BE700A9D363 /* Memorize */,
+				E1A5390B2ABF7BE700A9D363 /* MemorizeApp */,
 				E1A5390A2ABF7BE700A9D363 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,12 +47,12 @@
 		E1A5390A2ABF7BE700A9D363 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1A539092ABF7BE700A9D363 /* Memorize.app */,
+				E1A539092ABF7BE700A9D363 /* MemorizeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1A5390B2ABF7BE700A9D363 /* Memorize */ = {
+		E1A5390B2ABF7BE700A9D363 /* MemorizeApp */ = {
 			isa = PBXGroup;
 			children = (
 				E1A5390C2ABF7BE700A9D363 /* MemorizeApp.swift */,
@@ -62,7 +62,7 @@
 				E1A5391A2ABF7CB400A9D363 /* MemoryGame.swift */,
 				E1A5391C2ABF7CD200A9D363 /* EmojiMemoryGame.swift */,
 			);
-			path = Memorize;
+			path = MemorizeApp;
 			sourceTree = "<group>";
 		};
 		E1A539122ABF7BEA00A9D363 /* Preview Content */ = {
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1A539082ABF7BE700A9D363 /* Memorize */ = {
+		E1A539082ABF7BE700A9D363 /* MemorizeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1A539172ABF7BEA00A9D363 /* Build configuration list for PBXNativeTarget "Memorize" */;
+			buildConfigurationList = E1A539172ABF7BEA00A9D363 /* Build configuration list for PBXNativeTarget "MemorizeApp" */;
 			buildPhases = (
 				E1A539052ABF7BE700A9D363 /* Sources */,
 				E1A539062ABF7BE700A9D363 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Memorize;
+			name = MemorizeApp;
 			productName = MemorizeApp;
-			productReference = E1A539092ABF7BE700A9D363 /* Memorize.app */;
+			productReference = E1A539092ABF7BE700A9D363 /* MemorizeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1A539042ABF7BE700A9D363 /* Build configuration list for PBXProject "Memorize" */;
+			buildConfigurationList = E1A539042ABF7BE700A9D363 /* Build configuration list for PBXProject "MemorizeApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1A539082ABF7BE700A9D363 /* Memorize */,
+				E1A539082ABF7BE700A9D363 /* MemorizeApp */,
 			);
 		};
 /* End PBXProject section */
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1A539042ABF7BE700A9D363 /* Build configuration list for PBXProject "Memorize" */ = {
+		E1A539042ABF7BE700A9D363 /* Build configuration list for PBXProject "MemorizeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1A539152ABF7BEA00A9D363 /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1A539172ABF7BEA00A9D363 /* Build configuration list for PBXNativeTarget "Memorize" */ = {
+		E1A539172ABF7BEA00A9D363 /* Build configuration list for PBXNativeTarget "MemorizeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1A539182ABF7BEA00A9D363 /* Debug */,

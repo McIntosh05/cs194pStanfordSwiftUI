@@ -15,6 +15,7 @@ struct EmojiMemoryGameView: View {
             title
             ScrollView {
                 cards
+                    .animation(.default, value: emojiMemoryGame.cards)
             }
             Button("Shuffle") {
                 emojiMemoryGame.shuffle()
@@ -30,9 +31,9 @@ struct EmojiMemoryGameView: View {
     }
     
     var cards: some View {
-         return LazyVGrid(columns: [GridItem(.adaptive(minimum: 120), spacing: 0)], spacing: 0) {
-             ForEach(emojiMemoryGame.cards.indices, id: \.self) { index in
-                 CardView(emojiMemoryGame.cards[index])
+         return LazyVGrid(columns: [GridItem(.adaptive(minimum: 85), spacing: 0)], spacing: 0) {
+             ForEach(emojiMemoryGame.cards) { card in
+                 CardView(card)
                      .aspectRatio(2/3, contentMode: .fill)
                      .padding(4)
             }

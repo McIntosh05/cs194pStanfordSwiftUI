@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1A539082ABF7BE700A9D363"
-               BuildableName = "Memorize.app"
-               BlueprintName = "Memorize"
-               ReferencedContainer = "container:Memorize.xcodeproj">
+               BuildableName = "MemorizeApp.app"
+               BlueprintName = "MemorizeApp"
+               ReferencedContainer = "container:MemorizeApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1A539082ABF7BE700A9D363"
-            BuildableName = "Memorize.app"
-            BlueprintName = "Memorize"
-            ReferencedContainer = "container:Memorize.xcodeproj">
+            BuildableName = "MemorizeApp.app"
+            BlueprintName = "MemorizeApp"
+            ReferencedContainer = "container:MemorizeApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1A539082ABF7BE700A9D363"
-            BuildableName = "Memorize.app"
-            BlueprintName = "Memorize"
-            ReferencedContainer = "container:Memorize.xcodeproj">
+            BuildableName = "MemorizeApp.app"
+            BlueprintName = "MemorizeApp"
+            ReferencedContainer = "container:MemorizeApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
