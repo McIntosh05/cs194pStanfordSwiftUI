@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1500FF42AC2C5B100DDBB96 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1500FF32AC2C5B100DDBB96 /* Theme.swift */; };
 		E1A5390D2ABF7BE700A9D363 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5390C2ABF7BE700A9D363 /* MemorizeApp.swift */; };
 		E1A5390F2ABF7BE700A9D363 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5390E2ABF7BE700A9D363 /* EmojiMemoryGameView.swift */; };
 		E1A539112ABF7BEA00A9D363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A539102ABF7BEA00A9D363 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1500FF32AC2C5B100DDBB96 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E1A539092ABF7BE700A9D363 /* MemorizeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A5390C2ABF7BE700A9D363 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		E1A5390E2ABF7BE700A9D363 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				E1A539122ABF7BEA00A9D363 /* Preview Content */,
 				E1A5391A2ABF7CB400A9D363 /* MemoryGame.swift */,
 				E1A5391C2ABF7CD200A9D363 /* EmojiMemoryGame.swift */,
+				E1500FF32AC2C5B100DDBB96 /* Theme.swift */,
 			);
 			path = MemorizeApp;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				E1A5391B2ABF7CB400A9D363 /* MemoryGame.swift in Sources */,
 				E1A5390F2ABF7BE700A9D363 /* EmojiMemoryGameView.swift in Sources */,
+				E1500FF42AC2C5B100DDBB96 /* Theme.swift in Sources */,
 				E1A5390D2ABF7BE700A9D363 /* MemorizeApp.swift in Sources */,
 				E1A5391D2ABF7CD200A9D363 /* EmojiMemoryGame.swift in Sources */,
 			);
